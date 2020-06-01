@@ -1,8 +1,8 @@
 <div class="col-xs-12">
-<h3>
-student deatils
+    <h3>
+        student deatils
 
-</h3>
+    </h3>
 
 </div>
 
@@ -10,89 +10,89 @@ student deatils
 
 
     <div class="col-xs-6">
-    <label for="">
-        Name 
-        
-        </label>
-    
-</div>
+        <label for="">
+            Name
 
-<div class="col-xs-6">
-    <input type="text"  [(ngModel)]="Name"> {{Name}}
-</div>
+        </label>
+
+    </div>
+
+    <div class="col-xs-6">
+        <input type="text" [(ngModel)]="Name"> {{Name}}
+    </div>
 
 </div>
 <div class="col-xs-12">
     <div class="col-xs-6">
         <label for="">
-            Calss 
-            
-            </label>
-        
+            Calss
+
+        </label>
+
     </div>
-    
+
     <div class="col-xs-6">
-        <input type="text" [(ngModel)]="class" >  {{class}}
-    </div>
-    
+        <input type="text" [(ngModel)]="class"> {{class}}
     </div>
 
+</div>
 
 
+
+<div class="col-xs-12">
+    <div class="col-xs-6">
+        <label for="">
+            Grade
+
+        </label>
+
+    </div>
+
+    <div class="col-xs-6">
+        <input type="text" [(ngModel)]="grade"> {{grade}}
+    </div>
+
+</div>
+
+
+<div class="row">
     <div class="col-xs-12">
-        <div class="col-xs-6">
-            <label for="">
-                Grade 
-                
-                </label>
-            
-        </div>
-        
-        <div class="col-xs-6">
-            <input type="text" [(ngModel)]="grade" >  {{grade}}
-        </div>
-        
-        </div>
-
-
-        <div class="row">
-            <div class="col-xs-12">
         <hr>
-        
-            </div>
-            
-            
-            </div>
 
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <Label for="chkbox">sports</Label>
-                    <input id="chkbox" type="checkbox" #sports >   
-            
-
-                </div>
-                
-                
-                </div>
-          
-
-        <div class="col-xs-12"> 
-
-            <div class="col-xs-6">
-                
-<button class='btn btn-primary' (click)="onSubmitClikced(sports)"> submit </button>
-
+    </div>
 
 
 </div>
 
 
-<div class="col-xs-6">
-                
-    <p>style blue text</p>
-    <button class='btn btn-danger' (click)="Clear()"> clear </button>
-    
+<div class="row">
+    <div class="col-xs-12">
+        <Label for="chkbox">sports</Label>
+        <input id="chkbox" type="checkbox" #sports>
+
+
     </div>
 
-        </div>
+
+</div>
+
+
+<div class="col-xs-12">
+
+    <div class="col-xs-6">
+
+        <button class='btn btn-primary' (click)="onSubmitClikced(sports)"> submit </button>
+
+
+
+    </div>
+
+
+    <div class="col-xs-6">
+
+        <p>style blue text</p>
+        <button class='btn btn-danger' (click)="Clear()"> clear </button>
+
+    </div>
+
+</div>
